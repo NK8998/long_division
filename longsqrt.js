@@ -12,8 +12,8 @@ const findMatchingNum = (target, start = 0) => {
   while (start * num <= target) {
     start++;
     num++;
-    sh;
   }
+
   const adjustedNum = num - 1;
   return { num: adjustedNum, _divisor: original + adjustedNum };
 };
@@ -75,8 +75,8 @@ const logger = (func) => {
   };
 };
 
-const func1 = () => console.log(Math.sqrt(10));
+const func1 = () => console.log(Math.sqrt(144));
 logger(func1)();
 
-const func2 = () => console.log(sqrt(10));
+const func2 = () => console.log(sqrt(144));
 logger(func2)();
